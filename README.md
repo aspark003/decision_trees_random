@@ -63,6 +63,8 @@ The preprocessing pipeline performs:
 
 - Numeric features
 
+```
+```markdown
 ```python
 SimpleImputer(strategy="median")
 
@@ -76,6 +78,8 @@ SimpleImputer(strategy="constant", fill_value="missing")
 - OneHotEncoder(drop="first")
 
 ```
+
+```markdown
 All preprocessing steps are implemented using:
 
 ColumnTransformer
@@ -154,7 +158,7 @@ Across all models, the most influential features were:
 - total_rooms	housing characteristics
 
 Median income consistently had the highest importance score, indicating a strong relationship with housing prices.
-
+```
 # Visualizations
 
 The project generates the following plots:
