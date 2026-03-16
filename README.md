@@ -1,6 +1,6 @@
 ```markdown
 
-# Decision Trees and Ensemble Regression Models
+## Decision Trees and Ensemble Regression Models
 
 This project explores regression models for predicting housing prices using tree-based machine learning 
 algorithms implemented in Python with scikit-learn.
@@ -159,6 +159,7 @@ Across all models, the most influential features were:
 
 Median income consistently had the highest importance score, indicating a strong relationship with housing prices.
 ```
+```markdown
 # Visualizations
 
 The project generates the following plots:
@@ -191,7 +192,8 @@ processor
 
 README.md
 requirements.md
-
+```
+```markdown
 # Installation
 
 Clone the repository:
@@ -240,5 +242,5 @@ Random Forest achieves the highest predictive accuracy
 The results highlight the effectiveness of ensemble learning for structured tabular data.
 
 
-
+```
 ```
