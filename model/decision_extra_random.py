@@ -78,7 +78,7 @@ class Regressor:
         plt.title('DECISION TREE REGRESSOR\nACTUAL VS PREDICT')
         plt.ylabel('PREDICT')
         plt.xlabel('ACTUAL')
-        plt.savefig('../plots/decision_actual_predict.png', dpi=250, bbox_inches='tight')
+        #plt.savefig('../plots/decision_actual_predict.png', dpi=250, bbox_inches='tight')
         plt.show()
 
         plt.figure(figsize=(10, 8))
@@ -87,7 +87,7 @@ class Regressor:
         plt.scatter(decision_df['predict'], decision_df['residual'], c='red')
         plt.ylabel('RESIDUAL')
         plt.xlabel('PREDICT')
-        plt.savefig('../plots/decision_predict_residual.png', dpi=250, bbox_inches='tight')
+        #plt.savefig('../plots/decision_predict_residual.png', dpi=250, bbox_inches='tight')
         plt.show()
 
         estimator = grid.best_estimator_
@@ -107,7 +107,7 @@ class Regressor:
         plt.ylabel('FEATURE')
         plt.xlabel('RANGE')
         plt.gca().invert_yaxis()
-        plt.savefig('../plots/decision_feature_importance.png', dpi=250, bbox_inches='tight')
+        #plt.savefig('../plots/decision_feature_importance.png', dpi=250, bbox_inches='tight')
         plt.show()
 
         return score, decision_df, feature_df
@@ -155,7 +155,7 @@ class Regressor:
         plt.title('EXTRA TREES REGRESSOR\nACTUAL VS PREDICT')
         plt.ylabel('PREDICT')
         plt.xlabel('ACTUAL')
-        plt.savefig('../plots/extra_actual_predict.png',dpi=250,bbox_inches='tight')
+        #plt.savefig('../plots/extra_actual_predict.png',dpi=250,bbox_inches='tight')
         plt.show()
 
         plt.figure(figsize=(10, 8))
@@ -164,7 +164,7 @@ class Regressor:
         plt.scatter(decision_df['predict'], decision_df['residual'], c='red')
         plt.ylabel('RESIDUAL')
         plt.xlabel('PREDICT')
-        plt.savefig('../plots/extra_predict_residual.png', dpi=250, bbox_inches='tight')
+        #plt.savefig('../plots/extra_predict_residual.png', dpi=250, bbox_inches='tight')
         plt.show()
 
         estimator = grid.best_estimator_
@@ -184,7 +184,7 @@ class Regressor:
         plt.ylabel('FEATURE')
         plt.xlabel('RANGE')
         plt.gca().invert_yaxis()
-        plt.savefig('../plots/extra_feature_importance.png', dpi=250, bbox_inches='tight')
+        #plt.savefig('../plots/extra_feature_importance.png', dpi=250, bbox_inches='tight')
         plt.show()
         return score, decision_df, feature_df
 
@@ -233,7 +233,7 @@ class Regressor:
         plt.title('RANDOM FOREST REGRESSOR\nACTUAL VS PREDICT')
         plt.ylabel('PREDICT')
         plt.xlabel('ACTUAL')
-        plt.savefig('../plots/random_actual_predict.png',dpi=250,bbox_inches='tight')
+        #plt.savefig('../plots/random_actual_predict.png',dpi=250,bbox_inches='tight')
         plt.show()
 
         plt.figure(figsize=(10, 8))
@@ -242,7 +242,7 @@ class Regressor:
         plt.scatter(decision_df['predict'], decision_df['residual'], c='red')
         plt.ylabel('RESIDUAL')
         plt.xlabel('PREDICT')
-        plt.savefig('../plots/random_predict_residual.png', dpi=250, bbox_inches='tight')
+        #plt.savefig('../plots/random_predict_residual.png', dpi=250, bbox_inches='tight')
         plt.show()
 
         estimator = grid.best_estimator_
@@ -262,7 +262,7 @@ class Regressor:
         plt.ylabel('FEATURE')
         plt.xlabel('RANGE')
         plt.gca().invert_yaxis()
-        plt.savefig('../plots/random_feature_importance.png', dpi=250, bbox_inches='tight')
+        #plt.savefig('../plots/random_feature_importance.png', dpi=250, bbox_inches='tight')
         plt.show()
 
         return score, decision_df, feature_df
