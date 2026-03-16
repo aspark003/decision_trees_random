@@ -168,23 +168,25 @@ Feature importance charts
 These visualizations help analyze prediction accuracy and model behavior.
 
 Project Structure
-extra_tree
-│
-├── loader
-│   ├── housing.csv
-│   ├── extra_tree_process.pkl
-│   └── main.py
-│
-├── processor
-│   └── processor.py
-│
-├── model
-│   └── decision_extra_random.py
-│
-├── plots
-│
-├── README.md
-└── requirements.txt
+loader
+    extra_tree_process.pkl
+    housing.csv
+    main.py
+    tree.csv
+    
+model
+    decision_extra_random.py
+
+plots
+    decision
+    extra
+    random
+
+processor
+    processor.py
+
+README.md
+requirements.md
 
 # Installation
 
